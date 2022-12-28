@@ -1,0 +1,263 @@
+body{
+	font-family: 'Jost', sans-serif;
+	background-color: #e8e8e8;
+}
+header{
+	background-color:#005f9a;
+	height:120px;
+}
+header .top-header ul{
+	list-style-type:none;
+	padding:0;
+}
+header .top-header ul li{
+	display:inline-block;
+	padding:10px 10px 0;
+}
+header .top-header ul li a{
+	color: White;
+	text-decoration:none;
+}
+header .top-header ul li a:hover{
+	color: White;
+	text-decoration:none;
+}
+header .menu {
+	border-radius: 30px;
+	background-color:white;
+	font-size:20px;
+}
+header .menu ul {
+	padding: 0;
+	margin: 0;
+	list-style-type:none;
+}
+header .menu ul li {
+	display: inline-block;
+	padding:0 10px;
+}
+header .menu ul li a {
+	color: Black;
+	text-decoration: none;
+}
+header .logo  {
+	margin: 35px;
+
+}
+header .basket{
+	padding:0 20px;
+	border-left:1px solid black;
+	height:75px;
+	display:flex;
+	align-items:center;
+	margin-left:10px;
+}
+header .basket i{
+	color:Black;
+}
+
+/*header bitiş*/
+/*content başlangıc*/
+
+content .slider{
+	padding-top:150px;
+	background-color:#015081;
+}
+content .slider .yazi h1{
+		color:White;
+		font-size:72px;
+}
+content .slider .yazi p{
+		color:White;
+		font-size:32px;
+		margin-top:30px;
+}
+content .hakkimizda h2{
+		font-size:60px;
+		font-weight:bold;
+}
+content .hakkimizda p{
+		font-size:28px;
+		padding:60px 0 0px;
+}
+content .hakkimizda a{
+		font-size:28px;
+		color:rgb(47, 16, 16) ;
+		border-top:4px solid #015081;
+		text-decoration:none;
+}
+content .box{
+		background-color:White;
+		padding:20px;
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+		margin: 50px 0;
+		border-radius: 5px;
+}
+content .box i{
+		background-color:#015081;
+		padding:20px;
+		color:white;
+		border-radius:50%;
+		margin-bottom:20px;
+		font-size:28px;
+		
+}
+content .box h3{
+		font-size:36px;
+		padding:0px;
+		font-weight:bold;
+}
+content .box p{
+		font-size: 24px;
+		padding: 0px;	
+}
+
+content .Paketlerimiz {
+		background-color:#015081;
+}
+content .Paketlerimiz .pbox{
+		background-color:white;
+		padding: 20px ;
+		margin: 50px 0 ;
+		border-radius:20px;
+}
+content .Paketlerimiz .pbox i{
+		background-color:#015081;
+		padding:20px 20px;
+		color:white;
+		border-radius:50%;
+		margin-bottom:20px;
+		font-size:28px;
+}
+content .Paketlerimiz .pbox h3{
+		color:#015081;
+		font-size:28px;
+		font-weight:bold;
+}
+content .Paketlerimiz .pbox hr{
+		background-color:#015081;
+		border:2px solid #015081;
+		margin-bottom:20px;
+		width:70%;
+		margin:0;
+		opacity:1;
+}
+content .Paketlerimiz .pbox ul{
+		padding:0;
+		list-style:none;
+}
+content .Paketlerimiz .pbox ul li{
+		font-size:24px;
+}
+content .Paketlerimiz .pbox p{
+		font-size:50px;
+		text-align:center;
+}
+content .Paketlerimiz .pbox p span{
+		font-size: 28px;
+}
+content .Paketlerimiz .pbox a.btn-primary{
+		font-size: 28px;
+		padding: 10px 30px;
+		background-color:#015081;
+		margin: 0 auto;
+}
+content .haberler .hbox{
+		background-color:White;
+		border-radius:20px;
+
+}
+content .haberler .hbox img{
+		border-radius:20px;
+		
+}
+content .haberler .hbox p,
+		.haberler .hbox h4,
+		.haberler .hbox div{
+	padding:0 20px;
+	margin-top:20px;
+}
+content .haberler .hbox h4{
+		font-size:24px;
+		font-weight:bold;
+}
+content .haberler .hbox p{
+		font-size:18px;
+}
+content .haberler .hbox span{
+		color:#666;
+}
+footer .altbilgi{
+	background-color: #58585B;
+	color: white;
+}
+footer .altbilgi i{
+	padding:5px;
+	color:white;
+	margin-bottom:20px;
+	font-size:28px;
+}
+/*content bitiş*/
+@media screen and (max-width: 567px) {
+	content .slider {
+		padding-top: 60px;
+	}
+
+	content .slider .yazi h1 {
+		font-size: 36px;
+	}
+	content .slider .yazi p{
+		font-size: 16px;
+	}
+	content .hakkimizda h2{
+		font-size: 36px;
+	}
+	content .hakkimizda p{
+		font-size: 16px;
+		padding-top: 20px;
+	} 
+	content .hakkimizda a{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width:993px) {
+	content .slider {
+		padding-top: 100px;
+	}
+	content .slider .yazi h1 {
+		font-size: 48px;
+		padding-top: 10px;
+	}
+	content .slider .yazi p{
+		font-size: 24px;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	content .hakkimizda h2{
+		font-size: 40px;
+		text-align: center;
+	}
+	content .hakkimizda p{
+		font-size: 24px;
+		padding-top: 20px;
+		
+	} 
+	content .hakkimizda a{
+		font-size: 18px;
+	}
+	.container .box{
+		align-items: center;
+		text-align: center;
+	}
+	.container .pbox{
+		align-items: center;
+		text-align: center;
+	}
+	content .Paketlerimiz .pbox hr{
+		margin-left: 50px;
+	}
+	content .haberler h2{
+		font-size: 40px;
+	}
+
+}
